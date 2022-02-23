@@ -1,0 +1,172 @@
+h4 {
+    font-family: 'Cookie', cursive;
+    font-size: 55px !important;
+    padding-left: 10px;
+
+}
+.card-text {
+    font-size: 20px;
+}
+#navbarNavAltMarkup {
+    padding-left: 55%;
+    padding-top: 20px;
+
+}
+
+a {
+    font-size: 16px;
+
+}
+
+.to_do_list {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 50%;
+
+}
+
+.to_do_list_forms {
+    padding-top: 30px;
+    padding-bottom: 150px;
+    margin: auto;
+    width: 50%;
+
+}
+
+.heading {
+    text-align: center;
+    font-family: "fantasy";
+    font-size: 50px;
+}
+
+.form {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+#subject {
+    margin-left: 20%;
+}
+
+#content {
+    margin-left: 20%;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),url("https://www.nicepng.com/png/detail/51-510804_colorful-backgrounds-png-colorful-background-design-png.png")
+
+}
+
+.card text-center {
+    position: relative;
+}
+
+.image {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+    background: transparent;
+
+}
+
+.notes_heading {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 90px;
+    font-family: 'Sedgwick Ave', cursive;
+    color: Black;
+
+}
+.form-control {
+    width: 400px !important;
+    margin-left: 35%;
+
+}
+
+.notes_button {
+   margin-left: 48%;
+}
+
+
+#submit {
+    width: 100px;
+}
+
+.btn-warning {
+    background-color: #FF6600 !important;
+}
+
+.btn-group {
+    padding-left: 35%;
+    padding-top: 20px;
+
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+
+}
+
+p {
+  font-size: 3rem;
+  font-weight: normal;
+  font-family: "Reenie Beanie"
+}
+
+ul,li{
+  list-style:none;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:20em;
+  width:20em;
+  padding:1em;
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  transform: rotate(-6deg);
+}
+
+ul li:nth-child(even) a{
+  transform:rotate(4deg);
+  position:relative;
+  top:5px;
+}
+ul li:nth-child(3n) a{
+  transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+}
+ul li:nth-child(5n) a{
+  transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+}
+
+ul li a:hover,ul li a:focus{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+ul li{
+  margin:1em;
+}
+
+.note_heading {
+    text-align:center;
+}
